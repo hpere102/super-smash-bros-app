@@ -4,6 +4,7 @@ import './home.css'
 
 import smash4 from '../../images/smash-4.png'
 import ultimate from '../../images/ultimate.png'
+import kirby from '../../images/kirby.png'
 
 
 
@@ -12,12 +13,12 @@ const Home = () => {
  
     return (
 
-        <div>
     
       <div className="home-cont">
        <div className='left-cont'>
        <div className="img-cont">
        <img className="img-left" src={smash4} />
+       <p>SUPER SMASH BROS. 4</p>
        </div>
        </div>
       
@@ -25,17 +26,21 @@ const Home = () => {
       <div className='right-cont'>
       <div className="img-cont">
       <img className="img-right" src={ultimate} />
-      </div>
+      <p className='ult-p'>SUPER SMASH BROS. ULTIMATE</p>
       </div>
 
-      <div className='left-border'> <div className='l-b-text'> YOOO</div> </div>
-        <div className='right-border'><div className='r-b-text'> YOOO</div></div>
-        <div className='top-border'> <div className='t-b-text'> YOOO</div></div>
-        <div className='bottom-border'><div className='b-b-text'> YOOO</div></div>
+      <img className="kirby" src={kirby} />
 
+      </div>
+
+      
+
+      
+    
   </div>
 
-  </div>
+  
+
     );
   };
   

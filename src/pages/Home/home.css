@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: rgb(51, 122, 184);
     width: 100%;
     height: 100vh;
     overflow: auto;
@@ -13,36 +12,38 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    transform: rotate(7deg);
-    width: 80vh;
+    width: 100%;
     align-items: center;
-    height: 95%;
-    background: linear-gradient(-45deg, #ee7752, #942952, #08608a, #0d093b);
+    height: 100%;
+    background: linear-gradient(-45deg, #5a2313, #4d142a, #283f49, #484568);
     background-size: 400% 400%;
-    
     transition: all 0.2s;
+    color: blanchedalmond;
+    text-align: center;
+    font-size: 20px;
   
 }
 
 .right-cont {
     display: flex;
-    width: 80vh;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
-    transform: rotate(7deg);
     align-items: center;
-    height: 95%;
-    background: linear-gradient(-45deg, #ee7752, #942952, #08608a, #bd2525);
+    height: 100%;
+    background: linear-gradient(-45deg, #ee7752, #8d6d79, #08608a, #552f2f);
     background-size: 400% 400%;
-    
-    transition: all 0.2s;
+     transition: all 0.2s;
+     color: blanchedalmond;
+     text-align: center;
+     font-size: 20px;
     
 }
 
 .right-cont:hover {
     transition: all 0.2s;
     cursor: pointer;
-    margin-right: 55px;
+    width: 130%;
     animation: gradient .9s ease infinite;
     
    
@@ -52,23 +53,32 @@
     transition: all 0.2s;
     animation: gradient .9s ease infinite;
     cursor: pointer;
-    margin-left: 55px;
+    width: 130%;
+   
     
    
    
 }
 
 .img-left {
-    transform: rotate(353deg);
     width: 440px;
+   
 
 }
 
 .img-right {
-    transform: rotate(353deg);
     width: 400px;
+    margin-top:6%;
+    
+
 
 }
+
+.ult-p {
+    margin-top: 15%;
+}
+
+
 
 .top-border {
     background-color: rgb(206, 206, 206);
@@ -108,14 +118,16 @@
    
 }
 
-.l-b-text {
-    color: black;
-}
-.r-b-text {
-    color: black;
-    font-size: 20px;
-    margin-left: 40px;
-    width: 150px;
+
+.kirby {
+    width: 80px;
+    position: fixed;
+    top: 20%;
+    margin-left: 16%;
+    
+   
+    
+   
 }
 
 
