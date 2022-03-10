@@ -1,0 +1,132 @@
+.home-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(51, 122, 184);
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    
+}
+
+.left-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: rotate(7deg);
+    width: 80vh;
+    align-items: center;
+    height: 95%;
+    background: linear-gradient(-45deg, #ee7752, #942952, #08608a, #0d093b);
+    background-size: 400% 400%;
+    
+    transition: all 0.2s;
+  
+}
+
+.right-cont {
+    display: flex;
+    width: 80vh;
+    flex-direction: column;
+    justify-content: center;
+    transform: rotate(7deg);
+    align-items: center;
+    height: 95%;
+    background: linear-gradient(-45deg, #ee7752, #942952, #08608a, #bd2525);
+    background-size: 400% 400%;
+    
+    transition: all 0.2s;
+    
+}
+
+.right-cont:hover {
+    transition: all 0.2s;
+    cursor: pointer;
+    margin-right: 55px;
+    animation: gradient .9s ease infinite;
+    
+   
+}
+
+.left-cont:hover {
+    transition: all 0.2s;
+    animation: gradient .9s ease infinite;
+    cursor: pointer;
+    margin-left: 55px;
+    
+   
+   
+}
+
+.img-left {
+    transform: rotate(353deg);
+    width: 440px;
+
+}
+
+.img-right {
+    transform: rotate(353deg);
+    width: 400px;
+
+}
+
+.top-border {
+    background-color: rgb(206, 206, 206);
+    width: 100%;
+    height: 11%;
+    position: absolute;
+}
+
+.bottom-border {
+    background-color: rgb(206, 206, 206);
+    width: 100%;
+    height: 11%;
+    margin-top: 50%;
+    position: absolute;
+}
+
+.left-border {
+    background-color: rgb(206, 206, 206);
+    height: 100%;
+    width: 10%;
+    margin-right: 90%;
+    position: absolute;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.right-border {
+    background-color: rgb(206, 206, 206);
+    height: 100%;
+    width: 10%;
+    margin-left: 90%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.l-b-text {
+    color: black;
+}
+.r-b-text {
+    color: black;
+    font-size: 20px;
+    margin-left: 40px;
+    width: 150px;
+}
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
