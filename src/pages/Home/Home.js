@@ -27,13 +27,14 @@ const Home = () => {
        </Link>
       
 
-       <Link className='right-cont' to="/ultimate">
+       <Link className='right-cont' to="/">
 
       <img className="kirby" src={kirby} />
 
       <div className="img-cont">
       <img className="img-right" src={ultimate} />
       <p className='ult-p'>SUPER SMASH BROS. ULTIMATE</p>
+      <div style={{fontSize: '50px', backgroundColor: 'grey' }}>COMING SOON...</div>
       </div>
 
       <img className="kirby" src={kirby} />
