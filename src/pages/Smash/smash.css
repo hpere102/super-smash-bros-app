@@ -1,0 +1,18 @@
+.body-cont {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  
+}
+
+.char-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    gap: 60px;
+    justify-content: center;
+  
+}
+

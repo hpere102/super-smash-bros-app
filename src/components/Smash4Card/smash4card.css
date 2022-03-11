@@ -1,0 +1,8 @@
+.smash4-card-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    text-align: center;
+    background-color: rgb(79, 80, 129);
+}

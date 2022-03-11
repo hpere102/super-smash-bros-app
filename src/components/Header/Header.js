@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import './header.css'
 import smash from '../../images/smash-logo.png'
 import lucas from '../../images/lucas.webp'
@@ -12,7 +12,7 @@ const HeaderSmash = () => {
 
     
       <div className="header-cont">
-          <img className="header-smash" src={smash} />
+        <Link to="/"><img className="header-smash" src={smash} /></Link>
           <nav className="nav-link-cont">
               <NavLink className="nav-link" activeClassName='active' to="/">Home</NavLink>
               <NavLink className="nav-link" activeClassName='active' to="/smash-4">Smash 4</NavLink>
