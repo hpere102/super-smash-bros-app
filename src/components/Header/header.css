@@ -1,0 +1,45 @@
+.header-cont {
+    color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.header-smash {
+    width: 70px;
+}
+
+.nav-link-cont {
+    display: flex;
+    flex-direction: row;
+    gap: 7%;
+    width: 28%;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+  }
+  
+  .nav-link:hover {
+    background: linear-gradient(-45deg, #3a4857, #1e3652);
+    transition-duration: .4s;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  
+  .active {
+    background-color: rgba(95, 158, 160, 0.274);
+    padding: 8px;
+    border-radius: 5px;
+    
+  }
+
+  .lucas {
+      width: 80px;
+  }

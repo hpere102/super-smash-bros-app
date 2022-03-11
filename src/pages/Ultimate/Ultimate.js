@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Header from '../../components/Header/Header';
 import './ultimate.css'
 
 
@@ -10,6 +11,7 @@ const Ultimate = () => {
 
     
       <div className="ultimate-cont">
+        <Header />
           Ultimate DB
       </div>
 

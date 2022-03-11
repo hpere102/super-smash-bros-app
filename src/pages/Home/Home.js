@@ -41,10 +41,6 @@ const Home = () => {
       </Link>
 
       
-
-      
-
-      
     
   </div>
 
