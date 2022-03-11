@@ -118,70 +118,70 @@ const Smash4Bio = (props) => {
   const baseDmg5 = charMoves && charMoves[0] && charMoves[0].BaseDamage
   const hitBox5 = charMoves && charMoves[0] && charMoves[0].HitboxActive
 
-  const name5 = charMoves && charMoves[0] && charMoves[0].Name
-  const moveType5 = charMoves && charMoves[0] && charMoves[0].MoveType
-  const baseDmg5 = charMoves && charMoves[0] && charMoves[0].BaseDamage
-  const hitBox5 = charMoves && charMoves[0] && charMoves[0].HitboxActive
+  const name6 = charMoves && charMoves[1] && charMoves[1].Name
+  const moveType6 = charMoves && charMoves[1] && charMoves[1].MoveType
+  const baseDmg6 = charMoves && charMoves[1] && charMoves[0].BaseDamage
+  const hitBox6 = charMoves && charMoves[1] && charMoves[1].HitboxActive
 
-  const name5 = charMoves && charMoves[0] && charMoves[0].Name
-  const moveType5 = charMoves && charMoves[0] && charMoves[0].MoveType
-  const baseDmg5 = charMoves && charMoves[0] && charMoves[0].BaseDamage
-  const hitBox5 = charMoves && charMoves[0] && charMoves[0].HitboxActive
+  const name7 = charMoves && charMoves[2] && charMoves[2].Name
+  const moveType7 = charMoves && charMoves[2] && charMoves[2].MoveType
+  const baseDmg7 = charMoves && charMoves[2] && charMoves[2].BaseDamage
+  const hitBox7 = charMoves && charMoves[2] && charMoves[2].HitboxActive
 
-  const name5 = charMoves && charMoves[0] && charMoves[0].Name
-  const moveType5 = charMoves && charMoves[0] && charMoves[0].MoveType
-  const baseDmg5 = charMoves && charMoves[0] && charMoves[0].BaseDamage
-  const hitBox5 = charMoves && charMoves[0] && charMoves[0].HitboxActive
+  const name8 = charMoves && charMoves[3] && charMoves[3].Name
+  const moveType8 = charMoves && charMoves[3] && charMoves[3].MoveType
+  const baseDmg8 = charMoves && charMoves[3] && charMoves[3].BaseDamage
+  const hitBox8 = charMoves && charMoves[3] && charMoves[3].HitboxActive
 
-  const name5 = charMoves && charMoves[0] && charMoves[0].Name
-  const moveType5 = charMoves && charMoves[0] && charMoves[0].MoveType
-  const baseDmg5 = charMoves && charMoves[0] && charMoves[0].BaseDamage
-  const hitBox5 = charMoves && charMoves[0] && charMoves[0].HitboxActive
+  const name9 = charMoves && charMoves[4] && charMoves[4].Name
+  const moveType9 = charMoves && charMoves[4] && charMoves[4].MoveType
+  const baseDmg9 = charMoves && charMoves[4] && charMoves[4].BaseDamage
+  const hitBox9 = charMoves && charMoves[4] && charMoves[4].HitboxActive
 
-  const name5 = charMoves && charMoves[0] && charMoves[0].Name
-  const moveType5 = charMoves && charMoves[0] && charMoves[0].MoveType
-  const baseDmg5 = charMoves && charMoves[0] && charMoves[0].BaseDamage
-  const hitBox5 = charMoves && charMoves[0] && charMoves[0].HitboxActive
+  const name10 = charMoves && charMoves[5] && charMoves[5].Name
+  const moveType10 = charMoves && charMoves[5] && charMoves[5].MoveType
+  const baseDmg10 = charMoves && charMoves[5] && charMoves[5].BaseDamage
+  const hitBox10 = charMoves && charMoves[5] && charMoves[5].HitboxActive
 
-  const name5 = charMoves && charMoves[0] && charMoves[0].Name
-  const moveType5 = charMoves && charMoves[0] && charMoves[0].MoveType
-  const baseDmg5 = charMoves && charMoves[0] && charMoves[0].BaseDamage
-  const hitBox5 = charMoves && charMoves[0] && charMoves[0].HitboxActive
+  const name11 = charMoves && charMoves[6] && charMoves[6].Name
+  const moveType11 = charMoves && charMoves[6] && charMoves[6].MoveType
+  const baseDmg11 = charMoves && charMoves[6] && charMoves[6].BaseDamage
+  const hitBox11 = charMoves && charMoves[6] && charMoves[6].HitboxActive
 
-  const name5 = charMoves && charMoves[0] && charMoves[0].Name
-  const moveType5 = charMoves && charMoves[0] && charMoves[0].MoveType
-  const baseDmg5 = charMoves && charMoves[0] && charMoves[0].BaseDamage
-  const hitBox5 = charMoves && charMoves[0] && charMoves[0].HitboxActive
+  const name12 = charMoves && charMoves[7] && charMoves[7].Name
+  const moveType12 = charMoves && charMoves[7] && charMoves[7].MoveType
+  const baseDmg12 = charMoves && charMoves[7] && charMoves[7].BaseDamage
+  const hitBox12 = charMoves && charMoves[7] && charMoves[7].HitboxActive
 
-  const name5 = charMoves && charMoves[0] && charMoves[0].Name
-  const moveType5 = charMoves && charMoves[0] && charMoves[0].MoveType
-  const baseDmg5 = charMoves && charMoves[0] && charMoves[0].BaseDamage
-  const hitBox5 = charMoves && charMoves[0] && charMoves[0].HitboxActive
+  const name13 = charMoves && charMoves[8] && charMoves[8].Name
+  const moveType13 = charMoves && charMoves[8] && charMoves[8].MoveType
+  const baseDmg13 = charMoves && charMoves[8] && charMoves[8].BaseDamage
+  const hitBox13 = charMoves && charMoves[8] && charMoves[8].HitboxActive
 
-  const name5 = charMoves && charMoves[0] && charMoves[0].Name
-  const moveType5 = charMoves && charMoves[0] && charMoves[0].MoveType
-  const baseDmg5 = charMoves && charMoves[0] && charMoves[0].BaseDamage
-  const hitBox5 = charMoves && charMoves[0] && charMoves[0].HitboxActive
+  const name14 = charMoves && charMoves[9] && charMoves[9].Name
+  const moveType14 = charMoves && charMoves[9] && charMoves[9].MoveType
+  const baseDmg14 = charMoves && charMoves[9] && charMoves[9].BaseDamage
+  const hitBox14 = charMoves && charMoves[9] && charMoves[9].HitboxActive
 
-  const name5 = charMoves && charMoves[0] && charMoves[0].Name
-  const moveType5 = charMoves && charMoves[0] && charMoves[0].MoveType
-  const baseDmg5 = charMoves && charMoves[0] && charMoves[0].BaseDamage
-  const hitBox5 = charMoves && charMoves[0] && charMoves[0].HitboxActive
+  const name15 = charMoves && charMoves[10] && charMoves[10].Name
+  const moveType15 = charMoves && charMoves[10] && charMoves[10].MoveType
+  const baseDmg15 = charMoves && charMoves[10] && charMoves[10].BaseDamage
+  const hitBox15 = charMoves && charMoves[10] && charMoves[10].HitboxActive
 
-  const name5 = charMoves && charMoves[0] && charMoves[0].Name
-  const moveType5 = charMoves && charMoves[0] && charMoves[0].MoveType
-  const baseDmg5 = charMoves && charMoves[0] && charMoves[0].BaseDamage
-  const hitBox5 = charMoves && charMoves[0] && charMoves[0].HitboxActive
+  const name16 = charMoves && charMoves[11] && charMoves[11].Name
+  const moveType16 = charMoves && charMoves[11] && charMoves[11].MoveType
+  const baseDmg16 = charMoves && charMoves[11] && charMoves[11].BaseDamage
+  const hitBox16 = charMoves && charMoves[11] && charMoves[11].HitboxActive
 
-  const name5 = charMoves && charMoves[0] && charMoves[0].Name
-  const moveType5 = charMoves && charMoves[0] && charMoves[0].MoveType
-  const baseDmg5 = charMoves && charMoves[0] && charMoves[0].BaseDamage
-  const hitBox5 = charMoves && charMoves[0] && charMoves[0].HitboxActive
+  const name17 = charMoves && charMoves[12] && charMoves[12].Name
+  const moveType17 = charMoves && charMoves[12] && charMoves[12].MoveType
+  const baseDmg17 = charMoves && charMoves[12] && charMoves[12].BaseDamage
+  const hitBox17 = charMoves && charMoves[12] && charMoves[12].HitboxActive
 
-  const name5 = charMoves && charMoves[0] && charMoves[0].Name
-  const moveType5 = charMoves && charMoves[0] && charMoves[0].MoveType
-  const baseDmg5 = charMoves && charMoves[0] && charMoves[0].BaseDamage
-  const hitBox5 = charMoves && charMoves[0] && charMoves[0].HitboxActive
+  const name18 = charMoves && charMoves[13] && charMoves[13].Name
+  const moveType18 = charMoves && charMoves[13] && charMoves[13].MoveType
+  const baseDmg18 = charMoves && charMoves[13] && charMoves[13].BaseDamage
+  const hitBox18 = charMoves && charMoves[13] && charMoves[13].HitboxActive
 
 
 
