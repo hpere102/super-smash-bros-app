@@ -1,10 +1,31 @@
 .smash-4-char-cont {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
 }
 
 .smash-4-stats {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.stat-panel{
+    display: flex;
+    justify-content: center;
+}
+
+.smash-4-title {
+
+    text-align: center;
+}
+
+.smash-4-throws-cont {
+
+    display: flex;
     flex-direction: row;
+}
+
+.smash-4-throws {
+    background-color: tan;
 }
