@@ -22,6 +22,7 @@
     text-align: center;
     font-size: 20px;
     font-style: oblique;
+    text-decoration: none;
   
 }
 
@@ -32,6 +33,7 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+    text-decoration: none;
     background: linear-gradient(-45deg, #ee7752, #8d6d79, #08608a, #552f2f);
     background-size: 400% 400%;
      transition: all 0.2s;
@@ -70,7 +72,7 @@
 
 .img-right {
     width: 400px;
-    margin-top:6%;
+    margin-top:7%;
     
 
 
@@ -80,69 +82,30 @@
     margin-top: 15%;
 }
 
-
-
-.top-border {
-    background-color: rgb(206, 206, 206);
-    width: 100%;
-    height: 11%;
-    position: absolute;
+.img-cont p {
+    background-color: black;
+    padding: 3px;
 }
-
-.bottom-border {
-    background-color: rgb(206, 206, 206);
-    width: 100%;
-    height: 11%;
-    margin-top: 50%;
-    position: absolute;
-}
-
-
-
-
 
 .kirby {
     width: 80px;
     position: fixed;
     top: 20%;
-    padding-right: 30%;
+    padding-right: 20%;
 }
 
-.mario {
-    width: 80px;
+
+
+.luigi {
     position: fixed;
-    top: 80%;
-    margin-left: 5%;
-  
-}
-
-.link{
-    width: 120px;
-    position: relative;
-    margin-left: 60%;
-    top: 16%;
-}
-
-.minmin {
-    width: 120px;
-    position: fixed;
-    top: 12%;
-    transform: rotate(354deg)
-}
-
-.charizard {
-    width: 120px;
-    position: fixed;
-    top: 5%;
-    padding-left: 35%;
-}
-
-.sheik {
-    position:fixed;
     width: 110px;
-    top: 65%;
-    padding-right: 30%;
+    top: 30%;
+    padding-right: 21%;
 }
+
+
+
+
 
 @keyframes gradient {
     0% {
