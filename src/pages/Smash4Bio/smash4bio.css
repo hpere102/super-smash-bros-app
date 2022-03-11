@@ -1,0 +1,10 @@
+.smash-4-char-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.smash-4-stats {
+    display: flex;
+    flex-direction: row;
+}

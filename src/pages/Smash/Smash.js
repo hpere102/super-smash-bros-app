@@ -41,11 +41,12 @@ console.log(smashData.slice(1))
           {newData.length > 0 && (
              <ul className="char-list">
              {newData.map(char => (
-               <div char-item key={char.id}>
+               <Link className="smash-4-card-link" to={`/smash-4-bio/${char.DisplayName}`} char-item key={char.id}>
                  <Smash4Card name={char.DisplayName}
                              game={char.Game}
-                             avi={char.ThumbnailUrl}/>
-               </div>
+                             avi={char.ThumbnailUrl}
+                             color={char.ColorTheme}/>
+               </Link>
              ))}
            </ul>
          )}

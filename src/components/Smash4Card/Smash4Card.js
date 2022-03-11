@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom';
 import './smash4card.css'
 
 
-const Smash4Card = ({ name, game, avi}) => {
+const Smash4Card = ({ name, game, avi, color}) => {
 
  
     return (
 
     
-      <div className="smash4-card-cont">
+      <div style={{backgroundColor: color }} className="smash4-card-cont">
            <img src={avi} />
            <h4>{name}</h4>
            

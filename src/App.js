@@ -4,7 +4,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Home from './pages/Home/Home';
 import Smash from './pages/Smash/Smash';
-import Ultimate from'./pages/Ultimate/Ultimate';
+import Ultimate from './pages/Ultimate/Ultimate';
+import Smash4Bio from './pages/Smash4Bio/Smash4Bio'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/smash-4" element={<Smash />} />
         <Route exact path="/ultimate" element={<Ultimate />} />
+        <Route exact path="/smash-4-bio/:name" element={<Smash4Bio />} />
      </Routes>
 
     
