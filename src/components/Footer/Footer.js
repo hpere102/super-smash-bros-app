@@ -10,7 +10,7 @@ const Footer = () => {
 
     
       <div className="footer-cont">
-          FOOOTER GOES HERE
+          
       </div>
 
   
