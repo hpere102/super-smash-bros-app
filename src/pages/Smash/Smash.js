@@ -22,11 +22,11 @@ const Smash = () => {
         setUsers(data)
       })
   }
-console.log(smashData.slice(1))
+
 
   useEffect(() => {
     fetchData()
-  }, [])
+  },)
  
   const newData = smashData.slice(1);
 

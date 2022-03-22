@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from "react"
 import Header from '../../components/Header/Header';
@@ -34,7 +33,7 @@ const Smash4Bio = (props) => {
 
   useEffect(() => {
     fetchData()
-  }, [])
+  }, )
 
   let url2 = 'https://api.kuroganehammer.com/api/characters/name/' + newName + '/throws' 
 
@@ -54,7 +53,7 @@ const Smash4Bio = (props) => {
 
   useEffect(() => {
     fetchData2()
-  }, [])
+  },)
 
   let url3 = 'https://api.kuroganehammer.com/api/characters/name/' + newName + '/moves?expand=false'
 
@@ -74,7 +73,7 @@ const Smash4Bio = (props) => {
 
   useEffect(() => {
     fetchData3()
-  }, [])
+  },)
 
   let url4 = 'https://api.kuroganehammer.com/api/characters/name/' + newName + '/movements'
 
@@ -94,7 +93,7 @@ const Smash4Bio = (props) => {
 
   useEffect(() => {
     fetchData4()
-  }, [])
+  },)
 
   let url5 = 'https://api.kuroganehammer.com/api/characters/name/' + newName + '/characterattributes'
 
@@ -114,7 +113,7 @@ const Smash4Bio = (props) => {
 
   useEffect(() => {
     fetchData5()
-  }, [])
+  },)
 
 
   const renderDiv = function() {
@@ -137,12 +136,12 @@ const Smash4Bio = (props) => {
                 <div className='bio-nav-cont'>
                 <a href="#throws">Throws</a><a href="#moves">Moves</a><a href="#movements">Movements</a><a href="#attributes">Attributes</a>
                 </div>
-                <p><img style={{width: '25px', marginRight: '6px'}} src={smash} />{newName}</p>
+                <p><img style={{width: '25px', marginRight: '6px'}} alt="smash-logo"  src={smash} />{newName}</p>
             </nav>
 
         <div className="smash-4-char-cont">
           <div className="stat-panel">
-          <img src={charData.MainImageUrl} />
+          <img alt="stats"  src={charData.MainImageUrl} />
           </div>
 
           <div className="smash-4-stats">

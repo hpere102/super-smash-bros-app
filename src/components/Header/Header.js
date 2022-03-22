@@ -12,13 +12,13 @@ const HeaderSmash = () => {
 
     
       <div className="header-cont">
-        <Link to="/"><img className="header-smash" src={smash} /></Link>
+        <Link to="/"><img className="header-smash" alt="smash-logo" src={smash} /></Link>
           <nav className="nav-link-cont">
               <NavLink className="nav-link" activeClassName='active' to="/">Home</NavLink>
               <NavLink className="nav-link" activeClassName='active' to="/smash-4">Smash 4</NavLink>
               <NavLink className="nav-link" activeClassName='active' to="/ultimate">Ultimate</NavLink>    
         </nav>
-        <img className="lucas" src={lucas} />
+        <img className="lucas" alt="lucas"  src={lucas} />
       </div>
 
   

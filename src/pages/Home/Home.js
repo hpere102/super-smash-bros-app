@@ -17,11 +17,11 @@ const Home = () => {
       <div className="home-cont">
       <Link className='left-cont' to="/smash-4">
        <div className="img-cont">
-       <img className="img-left" src={smash4} />
+       <img alt="smash-4"  className="img-left" src={smash4} />
        <p>SUPER SMASH BROS. 4</p>
        </div>
 
-       <img className="luigi" src={luigi} />
+       <img alt="smash-logo"  className="luigi" src={luigi} />
       
     
        </Link>
@@ -29,15 +29,15 @@ const Home = () => {
 
        <Link className='right-cont' to="/">
 
-      <img className="kirby" src={kirby} />
+      <img alt="kirby"  className="kirby" src={kirby} />
 
       <div className="img-cont">
-      <img className="img-right" src={ultimate} />
+      <img alt="ultimate"  className="img-right" src={ultimate} />
       <p className='ult-p'>SUPER SMASH BROS. ULTIMATE</p>
       <div style={{fontSize: '50px', backgroundColor: 'grey' }}>COMING SOON...</div>
       </div>
 
-      <img className="kirby" src={kirby} />
+      <img alt="kirby"  className="kirby" src={kirby} />
      
       </Link>
 
