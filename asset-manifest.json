@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/super-smash-bros-db/static/css/main.8eaf14e5.css",
+    "main.js": "/super-smash-bros-db/static/js/main.af8ff2a8.js",
+    "static/js/787.d5e51a55.chunk.js": "/super-smash-bros-db/static/js/787.d5e51a55.chunk.js",
+    "static/media/kirby.png": "/super-smash-bros-db/static/media/kirby.7236097cc53723892057.png",
+    "static/media/smash-4.png": "/super-smash-bros-db/static/media/smash-4.a57f006ab97d09df1d8c.png",
+    "static/media/ultimate.png": "/super-smash-bros-db/static/media/ultimate.8ecdc61e4a348901d2e5.png",
+    "static/media/luigi.png": "/super-smash-bros-db/static/media/luigi.0d8b4a936fade7fe7df6.png",
+    "static/media/lucas.webp": "/super-smash-bros-db/static/media/lucas.aafa87425bf9a27a6a03.webp",
+    "static/media/smash-logo.png": "/super-smash-bros-db/static/media/smash-logo.10683ced67871c5e9025.png",
+    "index.html": "/super-smash-bros-db/index.html",
+    "main.8eaf14e5.css.map": "/super-smash-bros-db/static/css/main.8eaf14e5.css.map",
+    "main.af8ff2a8.js.map": "/super-smash-bros-db/static/js/main.af8ff2a8.js.map",
+    "787.d5e51a55.chunk.js.map": "/super-smash-bros-db/static/js/787.d5e51a55.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8eaf14e5.css",
+    "static/js/main.af8ff2a8.js"
+  ]
+}
