@@ -2,7 +2,7 @@
 
 Description of web application
 
-https://super-smash-bros-db.herokuapp.com//
+https://super-smash-bros-db.netlify.com
 
 
 ## About this website
