@@ -7,7 +7,7 @@
 Web application contains characters and a list of all their moves and attributes for gameplay.
 
 ## Deployment
-https://super-smash-bros-db.herokuapp.com//
+https://super-smash-bros-db.netlify.app/
 
 ### Built with
 
