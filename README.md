@@ -1,4 +1,5 @@
 # Super Smash Bros Skill DB 
+
 ![screenshot](ssb-sc.png)
 
 ## About this website
